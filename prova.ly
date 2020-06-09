@@ -13,11 +13,13 @@ destra = \relative c''
               >>
               }
 
-sinistra = \relative c
+sinistra = \relative c,
               {\clef bass
-              << {c2 e | e d}
+              << {s2. ees''4~ | ees8}
               \\
-              {f,2 g | a g}
+              {<aes,, c ees aes>4\arpeggio d4\rest d\rest <aes' c>( | 
+              <bes des>8) <aes c>-. <g bes>-. <f aes>-. <ees g>4 d\rest | 
+              d2\rest }
               >>
               }
 
@@ -28,7 +30,7 @@ global = {
 }
 
 \score {
-        \new PianoStaff \with { instrumentName = "Piano" \consists "Merge_rests_engraver" }
+        \new PianoStaff
         <<
         \new Staff  
         {
