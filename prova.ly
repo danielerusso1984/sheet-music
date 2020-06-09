@@ -19,7 +19,7 @@ sinistra = \relative c,
               \\
               {<aes,, c ees aes>4\arpeggio d4\rest d\rest <aes' c>( | 
               <bes des>8) <aes c>-. <g bes>-. <f aes>-. <ees g>4 d\rest | 
-              d2\rest }
+              d2\rest <aes c ees aes>4\arpeggio d4\rest}
               >>
               }
 
