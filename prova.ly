@@ -7,9 +7,11 @@ copyright = "©2020 DANIELE RUSSO (danielerusso1984@gmail.com)"
 
 destra = \relative c''
               {\clef treble
-              << {\mark "Recit." r8 aes16.( g32) bes16.( aes32) c16.( bes32) des16.( c32) ees8 ~ ees des32( c bes aes) | g8-. aes-. bes-. c-. des4 r | r2 r8 aes16.( g32) bes16.( aes32)}
+              << {\mark "Recit." b8\rest\p aes16.( g32) bes16.( aes32) c16.( bes32) des16.( c32) ees8 ~ ees des32( c bes aes) | 
+              g8-. aes-. bes-. c-. des4 b\rest | 
+              b2\rest b8\rest\p aes16.( g32) bes16.( aes32) c16.( bes32)}
               \\
-              {s1 | s8 ees ees ees ees4 r}
+              {s1 | s8 ees, ees ees ees4 s}
               >>
               }
 
