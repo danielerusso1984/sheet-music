@@ -1,12 +1,13 @@
 \header {
-title = "Piccolo preludio semplice"
-composer = "Daniele Russo"
+title = "Ch'io mi scordi di te"
+subtitle = "Aria supplementare da Idomeneo"
+composer = "W. A. Mozart"
 copyright = "©2020 DANIELE RUSSO (danielerusso1984@gmail.com)"
 }
 
 destra = \relative c''
               {\clef treble
-              << {a4 e2 a4 | a4 e2 a4}
+              << {\mark "Recit." r8 aes16.( g32) bes16.( aes32) c16.( bes32) des16.( c32) ees8 ~ ees des32( c bes aes) | g8-. aes-. bes-. c-. des4 r | r2 r8 aes16.( g32) bes16.( aes32)}
               \\
               {a,2 b | c b}
               >>
